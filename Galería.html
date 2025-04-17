@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galería de Fotos</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <style>
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .galeria figure {
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0 4px 123px rgba(179, 4, 4, 0.1);
+      overflow: hidden;
+      transition: transform 0.1s ease;
+    }
+
+    .galeria figure:hover {
+      transform: scale(1.03);
+    }
+
+    .galeria img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .galeria figcaption {
+      padding: 1px;
+      text-align: center;
+      font-weight: 100;
+      color: #000000;
+    }
+
+    main {
+      max-width: 12000px;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Galería de Fotos</h1>
+    <p>Especies de peces globos</p>
+  </header>
+
+  <nav>
+    <a href="home.html">Inicio</a>
+    <a href="Detalles.html">Detalles</a>
+    <a href="Galería.html">Galería</a>
+    <a href="Formulariodecontacto.html">Formulario de contacto</a>
+  </nav>
+
+  <main>
+    <section class="galeria">
+      <figure>
+        <img src="images/yeufo.jpg" alt="Yeufo" />
+        <figcaption>Sphoeroides asellus</figcaption>
+      </figure>
+      <figure>
+        <img src="images/matias.jpg" alt="Matías" />
+        <figcaption>Canthigaster solandri</figcaption>
+      </figure>
+      <figure>
+        <img src="images/lucho.jpg" alt="Lucho" />
+        <figcaption>Torquigener flavimaculosus</figcaption>
+      </figure>
+      <figure>
+        <img src="images/valentin.jpg" alt="Valentín" />
+        <figcaption>Arothron meleagris</figcaption>
+      </figure>
+      <figure>
+        <img src="images/deuz.jpg" alt="Deuz" />
+        <figcaption>Canthigaster bennetti</figcaption>
+      </figure>
+      <figure>
+        <img src="images/antonio.jpg" alt="Antonio" />
+        <figcaption>Polyspina piosae</figcaption>
+      </figure>
+      <figure>
+        <img src="images/araneda.jpg" alt="Araneda" />
+        <figcaption>Flavimaculosus Puffer</figcaption>
+      </figure>
+      <figure>
+        <img src="images/nato.jpg" alt="Nato" />
+        <figcaption>Arothron immaculatus</figcaption>
+      </figure>
+      <figure>
+        <img src="images/vale.jpg" alt="vale" />
+        <figcaption>Torquigener flavimaculosus</figcaption>
+      </figure>
+      <figure>
+        <img src="images/lars.jpeg" alt="vale" />
+        <figcaption>Arothron Nigropunctatus</figcaption>
+      </figure>
+      <figure>
+        <img src="images/rudy.jpg" alt="vale" />
+        <figcaption>Arothron diadematus</figcaption>
+      </figure>
+      <figure>
+        <img src="images/diego.jpg" alt="vale" />
+        <figcaption>Chonerhinos naritus</figcaption>
+      </figure>
+      <figure>
+        <img src="images/cristiano.jpg" alt="vale" />
+        <figcaption>Canthigaster smithae</figcaption>
+      </figure>
+      <figure>
+        <img src="images/messi.jpg" alt="vale" />
+        <figcaption>Dichotomyctere nigroviridis</figcaption>
+      </figure>
+      <figure>
+        <img src="images/mbappe.jpg" alt="vale" />
+        <figcaption>Arothron stellatus</figcaption>
+      </figure>
+      <figure>
+        <img src="images/neymar.jpg" alt="vale" />
+        <figcaption>Canthigaster jactator</figcaption>
+      </figure>
+      <figure>
+        <img src="images/cbum.jpg" alt="vale" />
+        <figcaption>Canthigaster compressa</figcaption>
+      </figure>
+      <figure>
+        <img src="images/cooleman.jpg" alt="vale" />
+        <figcaption>Tetractenos hamiltoni</figcaption>
+      </figure>
+      <figure>
+        <img src="images/pepe.jpg" alt="vale" />
+        <figcaption>Takifugu ocellatus</figcaption>
+      </figure>
+      <figure>
+        <img src="images/chupete.jpg" alt="vale" />
+        <figcaption>Contusus brevicaudus</figcaption>
+      </figure>
+      <figure>
+        <img src="images/fugu.jpg" alt="vale" />
+        <figcaption>Takifugu snyderi</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer>
+    <p>Mi sitio &copy;2025</p>
+  </footer>
+</body>
+</html>
+
